@@ -1,0 +1,14 @@
+{
+  "name": "dataflow_sirene.py",
+  "description": "An example pipeline that counts words in the input file.",
+  "parameters": [{
+    "name": "input",
+    "label": "input",
+    "help_text": "Input file to read. This can bie a local file or a file in a google Storage Bucket"
+  },
+  {
+    "name": "output",
+    "label": "output",
+    "help_text": "Output CSV File to write results to."
+  }]
+}
